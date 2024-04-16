@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 const connectDB = async () => {
     try {
         await mongoose.connect(
-           process.env.MONGO_URL
+           'mongodb+srv://taigg27052003:123@cluster0.2kldgnx.mongodb.net/clone_shopee?retryWrites=true&w=majority&appName=Cluster0',
         );
 
         console.log('Thanh cong');
